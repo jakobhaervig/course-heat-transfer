@@ -4,14 +4,14 @@
     width: 100%;
     bottom: 0;
     color: $mainColor;
-    font-size: 0.7em;
+    font-size: 15px;
 }
 
 .footer span {
     display: table-cell;
-    padding: 0.7em;
+    padding: 10px;
     text-align: center;
-    font-size: 0.7em;
+    font-size: 15px;
 }
 
 .footer span:nth-of-type(1) {
@@ -83,10 +83,27 @@ em {
     margin-top: 0;
 }
 
-.singleline {
+.singleline-la {
     display: flex;
-    text-align: center;
-  }
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+}
+
+.singleline-ca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.pad-top {
+    padding-top: 1em;
+}
+
+.pad-bottom {
+    padding-bottom: 1em;
+}
 
 .clearfix:after {
     content: "";

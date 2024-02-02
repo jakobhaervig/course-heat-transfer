@@ -98,14 +98,14 @@
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --r-background-color: #fff;
+  --r-background-color: #ffffff;
   --r-main-font: SourceSansPro, sans-serif;
-  --r-main-font-size: 36px;
-  --r-main-color: #003560;
+  --r-main-font-size: 30px;
+  --r-main-color: #141414;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: Tinos, Impact, serif;
-  --r-heading-color: #003560;
+  --r-heading-color: #141414;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: none;
@@ -117,15 +117,15 @@
   --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
-  --r-link-color: #00008B;
-  --r-link-color-dark: #00003f;
-  --r-link-color-hover: #0000f1;
+  --r-link-color: #383838;
+  --r-link-color-dark: #121212;
+  --r-link-color-hover: #6b6b6b;
   --r-selection-background-color: rgba(0, 0, 0, 0.99);
   --r-selection-color: #fff;
 }
 
 .reveal-viewport {
-  background: #fff;
+  background: #ffffff;
   background-color: var(--r-background-color);
 }
 
@@ -446,15 +446,15 @@
   display: table;
   width: 100%;
   bottom: 0;
-  color: #003560;
-  font-size: 0.7em;
+  color: #141414;
+  font-size: 15px;
 }
 
 .footer span {
   display: table-cell;
-  padding: 0.7em;
+  padding: 10px;
   text-align: center;
-  font-size: 0.7em;
+  font-size: 15px;
 }
 
 .footer span:nth-of-type(1) {
@@ -526,9 +526,26 @@ em {
   margin-top: 0;
 }
 
-.singleline {
+.singleline-la {
   display: flex;
-  text-align: center;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+}
+
+.singleline-ca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.pad-top {
+  padding-top: 1em;
+}
+
+.pad-bottom {
+  padding-bottom: 1em;
 }
 
 .clearfix:after {
@@ -698,10 +715,12 @@ em {
 
 .katex.inline {
   margin-left: 0 !important;
+  align-items: center;
 }
 
 .katex {
   text-align: center;
+  align-items: center;
 }
 
 .text-center {
@@ -756,12 +775,12 @@ a.reference-like {
   padding: 1px;
 }
 
-.green {
-  color: #008000;
-}
-
 .definition {
   color: rgb(181, 32, 37);
+}
+
+.mycolor0 {
+  color: rgb(0, 128, 0);
 }
 
 .mycolor1 {

@@ -163,7 +163,7 @@ Reveal.initialize({
     plugins: [
         RevealMarkdown,
         RevealMath.KaTeX,
-        RevealAudioSlideshow,
+        //RevealAudioSlideshow,
         RevealSearch,
         RevealHighlight,
         RevealPointer,
